@@ -9,8 +9,8 @@ export default NextAuth({
       clientSecret: process.env.GOOGLE_SECRET,
     }),
     // Providers.Facebook({
-    //   clientId: process.env.GOOGLE_ID,
-    //   clientSecret: process.env.GOOGLE_SECRET,
+    //   clientId: process.env.FACEBOOK_ID,
+    //   clientSecret: process.env.FACEBOOK_SECRET,
     // }),
     // ...add more providers here
   ],
